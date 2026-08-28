@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plugin.Maui.MediaPipeline.Sample.MainPage"
+             Title="MediaPipeline">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="12">
+            <Label Text="Plugin.Maui.MediaPipeline" FontSize="22" FontAttributes="Bold" />
+            <Label Text="Camera → resize → compress → EXIF → watermark → blur → encrypt → save."
+                   TextColor="Gray" />
+
+            <Image x:Name="PreviewImage" HeightRequest="220" Aspect="AspectFit" BackgroundColor="#11000000" />
+
+            <HorizontalStackLayout Spacing="12">
+                <CheckBox x:Name="ResizeCheck" IsChecked="True" />
+                <Label Text="Resize 1920" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="12">
+                <CheckBox x:Name="CompressCheck" IsChecked="True" />
+                <Label Text="Compress 80" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="12">
+                <CheckBox x:Name="ExifCheck" IsChecked="True" />
+                <Label Text="Remove EXIF" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="12">
+                <CheckBox x:Name="WatermarkCheck" IsChecked="True" />
+                <Label Text="Watermark" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+            <Entry x:Name="WatermarkEntry" Text="ACME Insurance" />
+            <HorizontalStackLayout Spacing="12">
+                <CheckBox x:Name="BlurCheck" IsChecked="True" />
+                <Label Text="Blur plate region" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="12">
+                <CheckBox x:Name="EncryptCheck" />
+                <Label Text="Encrypt (AES-256-GCM)" VerticalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <Button Text="Capture from camera" Clicked="OnCameraClicked" />
+            <Button Text="Pick from gallery" Clicked="OnGalleryClicked" />
+
+            <Label x:Name="StatusLabel" Text="Ready. Capture or pick a photo to run the pipeline."
+                   FontSize="13" LineBreakMode="WordWrap" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
