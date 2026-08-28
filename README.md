@@ -1,5 +1,7 @@
 # Plugin.Maui.MediaPipeline
 
+[![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.MediaPipeline.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Maui.MediaPipeline)
+
 A fluent **media processing pipeline** for **.NET MAUI** on **iOS** and **Android**.
 
 Capture from the camera or gallery, then resize, compress, strip EXIF, correct orientation, watermark, blur or redact, encrypt, and hand the result to **FileVault** or **SmartUpload**.
@@ -38,6 +40,8 @@ Built for field photos that leave the device: vehicle inspection, insurance, con
 | **Handoff** | File, `IMediaVault` (FileVault), `IMediaUploader` (SmartUpload / HTTP) |
 
 ## Install
+
+Package: [https://www.nuget.org/packages/Plugin.Maui.MediaPipeline](https://www.nuget.org/packages/Plugin.Maui.MediaPipeline)
 
 ```bash
 dotnet add package Plugin.Maui.MediaPipeline

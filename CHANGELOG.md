@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Add the NuGet package link and badge to the README
+
 ## 1.0.0
 
 - Fluent camera / gallery / file / stream / bytes pipeline for .NET MAUI on iOS and Android
