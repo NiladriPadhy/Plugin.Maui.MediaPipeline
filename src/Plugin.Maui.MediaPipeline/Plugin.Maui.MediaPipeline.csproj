@@ -18,9 +18,9 @@
     <PackageId>Plugin.Maui.MediaPipeline</PackageId>
     <Title>.NET MAUI MediaPipeline — camera-to-upload image pipeline</Title>
     <Description>Fluent media processing pipeline for .NET MAUI on iOS and Android: camera or gallery capture, resize, compress, EXIF removal, orientation correction, watermark, blur, redact, AES-256-GCM encryption, and upload. Designed for insurance, inspections, healthcare, and field capture.</Description>
-    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;nugetworld;media;camera;image;resize;compress;exif;watermark;blur;redact;encrypt;upload</PackageTags>
+    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;mauiessentials;media;camera;image;resize;compress;exif;watermark;blur;redact;encrypt;upload</PackageTags>
     <Authors>Niladri</Authors>
-    <Company>NugetWorld</Company>
+    <Company>MauiEssentials</Company>
     <Copyright>Copyright © 2026 Niladri</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
