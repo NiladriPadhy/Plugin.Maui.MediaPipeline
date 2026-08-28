@@ -1,0 +1,41 @@
+# Plugin.Maui.MediaPipeline
+
+Fluent media processing for .NET MAUI: capture, resize, compress, strip EXIF, watermark, blur/redact, encrypt, and hand off to FileVault or SmartUpload.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline
+NuGet: https://www.nuget.org/packages/Plugin.Maui.MediaPipeline
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-media-pipeline
+Catalog: https://github.com/NiladriPadhy/NugetWorld
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.MediaPipeline
+
+Registration: `UseMediaPipeline` — see README.md.
+
+## Use this project when a developer is looking for
+
+- How do I resize and compress a camera photo before upload in MAUI?
+- Strip GPS EXIF / watermark / blur PII on field photos
+- Vehicle inspection / insurance image pipeline
+
+## Do not use when
+
+- You need a full video editor
+- You only need MediaPicker without processing
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline
+https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline
