@@ -2,10 +2,10 @@
 
 Fluent media processing for .NET MAUI: capture, resize, compress, strip EXIF, watermark, blur/redact, encrypt, and hand off to FileVault or SmartUpload.
 
-Repository: https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline
+Repository: https://github.com/nuvyntralabs/Plugin.Maui.MediaPipeline
 NuGet: https://www.nuget.org/packages/Plugin.Maui.MediaPipeline
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-media-pipeline
-Catalog: https://github.com/NiladriPadhy/MauiEssentials
+Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
 ## Supported versions
@@ -33,9 +33,9 @@ Registration: `UseMediaPipeline` — see README.md.
 
 ## Documentation
 
-https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline
-https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline#readme
+https://github.com/nuvyntralabs/Plugin.Maui.MediaPipeline
+https://github.com/nuvyntralabs/Plugin.Maui.MediaPipeline#readme
 
 ## Source
 
-https://github.com/NiladriPadhy/Plugin.Maui.MediaPipeline
+https://github.com/nuvyntralabs/Plugin.Maui.MediaPipeline
