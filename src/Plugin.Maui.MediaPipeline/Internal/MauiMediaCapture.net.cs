@@ -1,4 +1,4 @@
-#if !ANDROID && !IOS
+#if !ANDROID && !IOS && !MACCATALYST && !WINDOWS
 namespace Plugin.Maui.MediaPipeline;
 
 sealed class MauiMediaCapture : IMediaCapture
@@ -10,11 +10,11 @@ sealed class MauiMediaCapture : IMediaCapture
     public Task<CapturedMedia> CapturePhotoAsync(MediaCaptureOptions? options = null, CancellationToken cancellationToken = default) =>
         Task.FromException<CapturedMedia>(new MediaPipelineException(
             MediaPipelineError.NotSupported,
-            "Camera capture is only available on Android and iOS."));
+            "Camera capture is not available on this target."));
 
     public Task<CapturedMedia> PickPhotoAsync(MediaPickOptions? options = null, CancellationToken cancellationToken = default) =>
         Task.FromException<CapturedMedia>(new MediaPipelineException(
             MediaPipelineError.NotSupported,
-            "Gallery pick is only available on Android and iOS."));
+            "Gallery pick is not available on this target."));
 }
 #endif

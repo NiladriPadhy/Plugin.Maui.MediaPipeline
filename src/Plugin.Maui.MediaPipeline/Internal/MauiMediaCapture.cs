@@ -1,4 +1,4 @@
-#if ANDROID || IOS
+#if ANDROID || IOS || MACCATALYST || WINDOWS
 using Microsoft.Maui.ApplicationModel;
 using Microsoft.Maui.Media;
 
